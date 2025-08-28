@@ -1,7 +1,7 @@
 const noButton = document.getElementById('no-button');
 const buttonsArea = document.querySelector('.buttons-area');
 
-noButton.addEventListener('click', () => {
+noButton.addEventListener('touchstart', () => {
     const areaWidth = buttonsArea.clientWidth;
     const areaHeight = buttonsArea.clientHeight;
 
