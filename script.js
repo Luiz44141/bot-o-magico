@@ -1,7 +1,7 @@
 const noButton = document.getElementById('no-button');
 const buttonsArea = document.querySelector('.buttons-area');
 
-noButton.addEventListener('mouseover', () => {
+noButton.addEventListener('click', () => {
     const areaWidth = buttonsArea.clientWidth;
     const areaHeight = buttonsArea.clientHeight;
 
